@@ -6,10 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const incrementButton = document.getElementById('incrementBtn');
     
     incrementButton.addEventListener('click', function() {
-		
         let currentValue = parseInt(counterElement.textContent);
         
-        alert("Un-incremented value: " + currentValue);
+        alert(currentValue);
         
         currentValue++;
         
